@@ -7,6 +7,14 @@
     padding: 10px;
     width: 300px;
 
+    .criacao-item {
+        margin-bottom: 10px;
+
+        input {
+            width: 45%;
+        }
+    }
+
     .item {
         align-items: center;
         background-color: white;
