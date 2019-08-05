@@ -1,13 +1,16 @@
 import React, { Component } from "react";
-import Lista from "./Lista/Lista";
 
 import "./SistemaLista.scss";
+
+import Lista from "./Lista/Lista";
+import EditarLista from "./EditarItem/EditarItem";
 
 class SistemaLista extends Component {
     render() {
         return (
             <main className="SistemaLista">
-                <Lista/>
+                <Lista />
+                <EditarLista />
             </main>
         )
     }
