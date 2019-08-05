@@ -1,0 +1,29 @@
+.Historico {
+    align-items: flex-end;
+    background-color: #def1e6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    padding: 10px;
+    width: 50%;
+
+    div {
+        background-color: #252526;
+        border-radius: 5px;
+        box-sizing: border-box;
+        height: 100%;
+        overflow: auto;
+        padding: 10px;
+        width: 100%;
+
+        p {
+            color: white;
+
+            &:not(:last-child) {
+                margin: 0 0 15px 0;                
+            }
+        }
+    }
+}
